@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 bg-secondary bg-gradient" style="height: 100vh;" id="menu-container">
+                <div>
+                    <h1>Logo tipo</h1>
+                </div>
+                <div class="my-auto">
+                    <ul class="d-grid gap-2 list-group">
+                        <a class="btn btn-primary list-group-item" href="/html/Produtos.html"><li >Produtos<span class="badge bg-primary rounded-pill"></span></li></a>
+                        <a class="btn btn-primary list-group-item" href="/html/clientes.html"><li >Clientes</li></a>
+                        <a class="btn btn-primary list-group-item" href="/html/contas.html"><li >Contas</li></a>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-10 " id="content-container" >
+                <div id="content" class="container">
+                    <h1>Produtos</h1>
+                    <form class="row g-3 col-8">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Nome do produto</label>
+                            
+                          </div>
+                        
+                        <div class="input-group mb-3 col-4">
+                            
+                            <span class="input-group-text">R$</span>
+                            <input type="number" placeholder="Valor" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Descrição</label>
+                          </div>
+                        <div class="input-group mb-3 col-md-6">
+                          <label for="inputCity" class="form-label input-group-text">Foto do produto</label>
+                          <input type="file" class="form-control" id="inputGroupFile01">
+                        </div>
+                        
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">Categoria</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Selecionar...</option>
+                            <option>Hidraulica</option>
+                            <option>Alvenaria</option>
+                            <option>Serralheria</option>
+                          </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">Marca</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Selecionar...</option>
+                              <option>Krona</option>
+                              <option>Bosh</option>
+                              <option>Deca</option>
+                            </select>
+                          </div>
+                        
+                        
+                        
+                        <div class="col-12 d-flex justify-content-end">
+                          <button type="submit" class="btn btn-success">Cadastrar</button>
+                        </div>
+                        
+                      </form>
+                      
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+Produto - Nome, preço, descrição, categoria
+Cliente - Nome, Endereço(rua, cep, numero da casa), Bairro(opcional), data de cadastro, telefone, cpf(opcional), email(opcional)
+Conta - id(conta), id(cliente), lista de produtos(ate 99)  
+
+node_modules
